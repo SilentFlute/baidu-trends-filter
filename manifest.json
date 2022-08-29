@@ -3,16 +3,12 @@
   "description": "Filter baidu issue for u, and gives u more focus to concentrate on what needs to be done",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": [
-    "tabs",
-    "scripting"
+  "content_scripts": [
+    {
+      "matches": [ "https://www.baidu.com/s*" ],
+      "css": [ "content-style.css" ]
+    }
   ],
-  "host_permissions": [
-    "https://www.baidu.com/"
-  ],
-  "background": {
-    "service_worker": "background.js"
-  },
   "action": {
     "default_title": "Filter Baidu Issue"
   }
