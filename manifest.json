@@ -1,6 +1,6 @@
 {
-  "name": "Filter Baidu Issue",
-  "description": "Filter baidu issue for u, and gives u more focus to concentrate on what needs to be done",
+  "name": "Filter Baidu Trends",
+  "description": "Filter baidu trends for u, and gives u more focus to concentrate on what needs to be done",
   "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
@@ -10,6 +10,6 @@
     }
   ],
   "action": {
-    "default_title": "Filter Baidu Issue"
+    "default_title": "Filter Baidu Trends"
   }
 }
