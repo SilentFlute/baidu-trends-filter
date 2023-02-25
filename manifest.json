@@ -1,6 +1,6 @@
 {
   "name": "Filter Baidu Trends",
-  "description": "过滤百度热搜的谷歌浏览器扩展, 匹配页面url为百度搜索结果页时对目标内容进行隐藏操作",
+  "description": "过滤百度热搜, 让你更专注于需要做的事情",
   "version": "1.0.1",
   "manifest_version": 3,
   "content_scripts": [
