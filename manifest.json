@@ -1,7 +1,7 @@
 {
-  "name": "Filter Baidu Trends",
+  "name": "百度热搜过滤器",
   "description": "过滤百度热搜, 让你更专注于需要做的事情",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 3,
   "content_scripts": [
     {
@@ -10,7 +10,7 @@
     }
   ],
   "action": {
-    "default_title": "Filter Baidu Trends",
+    "default_title": "百度热搜过滤器",
     "default_icon": "icon.png"
   },
   "icons": {
