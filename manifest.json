@@ -5,7 +5,7 @@
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": [ "https://www.baidu.com/s*" ],
+      "matches": [ "https://www.baidu.com/*" ],
       "css": [ "content-style.css" ]
     }
   ],

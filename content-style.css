@@ -1,4 +1,6 @@
-/* 热搜 */
-#content_right {
+#s_wrap, /* 登录过首页: 有关注, 推荐, 热搜 */
+#s-hotsearch-wrapper, /* 未登录过首页: 只有热搜 */
+#content_right /* 搜索结果页: 无论登录与否都只有热搜 */
+{
   display: none;
 }
