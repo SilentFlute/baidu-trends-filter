@@ -6,8 +6,8 @@
   "content_scripts": [
     {
       "matches": [ "https://www.baidu.com/*" ],
-      "css": [ "./style.css" ],
-      "js": [ "./script.js" ]
+      "css": [ "./content-style.css" ],
+      "js": [ "./content-script.js" ]
     }
   ],
   "action": {
