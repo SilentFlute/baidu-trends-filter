@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": [ "https://www.baidu.com/*" ],
-      "css": [ "content-style.css" ]
+      "css": [ "style.css" ]
     }
   ],
   "action": {
