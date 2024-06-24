@@ -1,7 +1,7 @@
 {
   "name": "百度热搜过滤器",
   "description": "过滤百度热搜, 让你更专注于需要做的事情",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "manifest_version": 3,
   "content_scripts": [
     {
